@@ -44,10 +44,6 @@ export const registerUser = async (req: Request, res: Response): Promise<void> =
 };
 
 
-
-
-
-
 const JWT_SECRET = process.env.JWT_SECRET || 'your_jwt_secret';
 
 const loginSchema = z.object({
